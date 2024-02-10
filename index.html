@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main class="container">
+        <img class="container__img" src="assets/imagem.png" alt="">
+        <div class="container__content">
+            <div class="container__content__login">
+                <div class="content__login__titulos">
+                    <p class="login__texto">Bem-vindo de volta</p>
+                    <h1 class="login__titulo">Faça login na sua conta</h1>
+                </div>
+                <form method="post">
+                    <div class="content__login__input">
+                        <label for="e-mail">E-mail</label>
+                        <input type="text" name="email" id="e-mail" placeholder="exemplo@gmail.com">
+                    </div>
+                    <div class="content__login__input">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="password" id="senha" placeholder="Digite sua senha">
+                    </div>
+                </form>
+                <div class="content__login__link">
+                    <span>
+                        <input type="radio" name="" id="lembrar">
+                        <label for="">Lembre de mim</label>
+                    </span>
+                    <a href="#">Esqueceu sua senha? </a>
+                </div>
+                <div class="content__login__buttons">
+                    <button class="button__entrar" type="submit">Entrar na conta</button>
+                    <button class="button__gmail"><img src="assets/icon.png" alt="Logo da Gmail"> Ou faça login com o Google</button>
+                </div>
+                <p class="content__login__cadastrar">Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
